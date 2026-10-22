@@ -129,7 +129,7 @@ TTS 요구사항:
 
 ## 3단계: 스킬 정의 (Claude Code 공식 구조)
 
-```
+````text
 이제 .claude/skills/ 폴더에 스킬을 정의해줘.
 
 **중요: Claude Code 공식 스킬 구조를 따라야 해!**
@@ -169,7 +169,7 @@ generator.generate(prompt="...", output_path=...)
 - Usage: 코드 예제
 - Config: 모델명, 설정값 표
 - Features: 제공 기능 목록
-```
+````
 
 ---
 
